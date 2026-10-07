@@ -1,5 +1,5 @@
 body{
-    background-color:blue;
+    background-color:greenyellow;
 }
 
 h1{
@@ -7,7 +7,7 @@ h1{
 }
 
 p{
-    color:aquamarine;
+    color:rgb(190, 166, 85);
     text-align: justify;
     font-family: Arial;
 }
