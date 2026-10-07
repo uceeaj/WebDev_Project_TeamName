@@ -1,0 +1,13 @@
+body{
+    background-color:blue;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    color:aquamarine;
+    text-align: justify;
+    font-family: Arial;
+}
