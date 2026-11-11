@@ -4,7 +4,7 @@ body{
     background-attachment: fixed;
 }
 
-h1, h3, li{
+h1, h2, li{
     text-align: center;
     color:rgb(124, 167, 202);
 }
@@ -26,7 +26,7 @@ height: 300px;
 background-color: pink;
 }
 /*accesibility: dyslexia - sans-serif headings, lartge text, left-alignes*/
-h1, h3 {
+h1, h2 {
     font-family: "Poppins", sans-serif;
 }
 body {
