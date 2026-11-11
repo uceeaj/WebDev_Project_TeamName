@@ -25,3 +25,27 @@ width: 200px;
 height: 300px;
 background-color: pink;
 }
+/*accesibility: dyslexia - sans-serif headings, lartge text, left-alignes*/
+h1, h3 {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    font-size: 18px;
+}
+p, li{
+    text-align: left; /*never justified*/
+}
+
+/*accessibility: neurodiverse - respect "reduce motion" setting*/
+@media (prefers-reduced-motion: reduce){
+    *{
+        transition: none !important;
+        animation: none !important;
+        transform: none !important;
+    }
+}
+/*accesibility: high contrast button*/
+.btn{
+    background: #c2185b;
+}
+/*accessibility: colour blindness -  underline and bold, not colour alone*/
